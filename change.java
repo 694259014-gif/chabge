@@ -27,8 +27,6 @@
         int c2 = change / 2;
         change %= 2;
 
-
-
         IO.println("Change is : " + totalChange + " baht");
         IO.println("Five-hundred note: " + b500 + " note(s)");
         IO.println("Hundred note: " + b100 + " note(s)");
@@ -37,4 +35,5 @@
         IO.println("Ten coin: " + c10 + " coin(s)");
         IO.println("Five coin: " + c5 + " coin(s)");
         IO.println("Two coin: " + c2 + " coin(s)");
+        IO.println("Two coin: " + change + " coin(s)");
     }
